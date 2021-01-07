@@ -1,0 +1,59 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+// null file
+@import "_nullstyle.scss";
+// styles
+.wrapper {
+   width: 95%;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+.header {
+   .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      .header-nav {
+         align-self: flex-end;
+         margin-bottom: 15px;
+         .header-links {
+            display: flex;
+            align-items: center;
+            font-family: Noto Sans;
+            font-size: 18px;
+            line-height: 24px;
+            .header-item {
+               margin-left: 50px;
+               .header-link {
+                  color: #ffffff;
+               }
+            }
+         }
+      }
+      .header-lines {
+         align-self: flex-end;
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-right: 1%;
+         .header-line-1 {
+            width: 420px;
+            height: 1px;
+            border: none;
+            background-color: #000000;
+            color: #000000; /* for IE6-7 */
+            margin-bottom: 18px;
+         }
+         .header-line-2 {
+            width: 400px;
+            height: 1px;
+            border: none;
+            background-color: #000000;
+            color: #000000; /* for IE6-7 */
+         }
+      }
+   }
+}
