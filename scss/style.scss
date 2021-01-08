@@ -57,3 +57,120 @@
       }
    }
 }
+.about-me {
+   margin-bottom: 100px;
+   .about-me-heading {
+      font-family: Playfair Display;
+      margin-bottom: 70px;
+      .about-me-title {
+         font-weight: bold;
+         font-size: 72px;
+         line-height: 96px;
+         color: #f9ffd2;
+         margin-bottom: 15px;
+      }
+      .about-me-subtitle {
+         font-weight: normal;
+         font-size: 36px;
+         line-height: 48px;
+         letter-spacing: 0.185em;
+         color: #ffffff;
+         margin-left: 250px;
+      }
+   }
+   .about-me-content {
+      display: flex;
+      align-items: center;
+
+      .about-me-img {
+         width: 50%;
+         max-width: 100%;
+         margin-right: 5%;
+      }
+      .about-me-text {
+         width: 45%;
+         font-family: Noto Sans;
+         font-size: 18px;
+         line-height: 32px;
+         letter-spacing: 0.03em;
+         color: #ffffff;
+      }
+   }
+}
+.section-heading {
+   .section-title {
+      font-family: Noto Sans;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      color: #e5e5e5;
+      margin-bottom: 60px;
+   }
+}
+.portfolio {
+   margin-bottom: 100px;
+   .portfolio-content {
+      .portfolio-items {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+         .portfolio-item {
+            width: 30%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+            .gallery-img {
+               max-width: 100%;
+            }
+         }
+         .portfolio-item:nth-child(3) {
+            margin-right: 0;
+         }
+         .portfolio-item:last-child {
+            margin-right: 0;
+         }
+      }
+   }
+}
+// .price {
+//    .price-content {
+//       padding-bottom: 300px;
+
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-between;
+//       .prices {
+//          width: 40%;
+//          font-family: Noto Sans;
+//          font-weight: bold;
+//          font-size: 18px;
+//          line-height: 24px;
+//          color: #f9ffd2;
+//          margin-bottom: 10%;
+//          .price {
+//             margin-bottom: 20px;
+//          }
+//       }
+//       .price-slider {
+//          width: 50%;
+//          .slider-wrapper {
+//             border: 1px solid #000000;
+//             height: 560px;
+//             width: 709px;
+
+//             .slider-container {
+//                width: 80%;
+//                height: 80%;
+//                margin: auto;
+//                .slider-cards {
+//                   .slider-card {
+//                      .slider-img {
+//                         width: 95%;
+//                         height: 95%;
+//                      }
+//                   }
+//                }
+//             }
+//          }
+//       }
+//    }
+// }
