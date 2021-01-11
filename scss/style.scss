@@ -240,9 +240,6 @@
          color: rgba(255, 255, 255, 0.3);
       }
    }
-   // .message {
-   //    height: 100px;
-   // }
    .form-button {
       border: 1px solid #ffffff;
       border-radius: 48px;
@@ -285,6 +282,9 @@
                -ms-transform: scale(1.5);
                -o-transform: scale(1.5);
             }
+         }
+         .social-link:last-child {
+            margin-right: 0;
          }
       }
       .footer-phone {
