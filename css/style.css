@@ -772,3 +772,28 @@ h6 {
     -o-transition: 0.5s;
   }
 }
+
+.thank-you-wrapper {
+  min-height: calc(100vh - 85px);
+}
+
+.thank-you-header {
+  margin-bottom: 50px;
+}
+
+.thank-you-header .thank-you-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.thank-you-container {
+  text-align: center;
+}
+
+.thank-you-container .thank-you-text {
+  font-family: Playfair Display;
+  font-size: 72px;
+  line-height: 96px;
+  color: #f9ffd2;
+}
